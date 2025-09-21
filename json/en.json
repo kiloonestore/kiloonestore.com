@@ -1,0 +1,72 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "chef": "Chef",
+    "menu": "Menu",
+    "contact": "Contact",
+    "shop": "Shop"
+  },
+  "call_now": "Call Now! +962 7 9785 2640",
+  "reserve_product": "Reserve a Product",
+  "slider": {
+    "healthy_nutrition_store": "Healthy Nutrition Store",
+    "mission_health_boost": "Our mission is to provide an unforgettable Health Boost",
+    "meet_team": "Meet Our Team",
+    "perfect_health_boost": "Your Perfect Health Boost",
+    "best_healthy_products": "The best Healthy Products can be here too!",
+    "discover_products": "Discover Our Products",
+    "new_healthy_estore": "New Healthy E-Store",
+    "enjoy_effects": "Enjoy the Effects of Feel Great Products",
+    "reserve_product": "Reserve a Product",
+    "why_best": "Why are we the best?",
+    "get_to_know": "Get to Know why we're the best at our field!",
+    "reserve_product": "Reserve a Product"
+  },
+  "about": {
+    "read_story": "Read our story",
+    "kilo_one_estore": "Kilo One™ E-store was inbound since 2018!",
+    "kilo_one_established": "Kilo One™ was Established in Saudi Arabia Back then, It was Only formed of 2 Delivery Captains in few selected areas in Riyadh. Then we Established an HQ with the help of some of the Local Businesses, Arriving to the Streets of Amman, a Deal was reached with Unicity™ to support us as Dependent Distributors for Unicity™. Now we're trying to expand in the Jordanian Markets, Interested in Satisfying the Customers and Clients with Healthy and Reprogrammbale Goods and Nutritional Products Provided by Unicity™."
+  },
+  "team": {
+    "meet_team": "Meet our Team",
+    "nice_friendly": "They are nice & friendly",
+    "mrs_andaleeb": "Mrs. Andaleeb Samih Jarbooh",
+    "unipro_distributor": "Unipro Distributor",
+    "muhammad_hussam": "Muhammad Hussam Aljerjawi",
+    "owner_manager": "Owner & Manager"
+  },
+  "store": {
+    "our_store": "Our Store",
+    "shop_products": "Shop Our Products",
+    "feel_great": "Feel Great",
+    "feel_great_products": "Feel Great Products",
+    "68_jd81_jd": "68 JD / 81 JD"
+  },
+  "testimonials": "Testimonials",
+  "integer_posuere": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum ullamcorper nulla non.",
+  "digital_carlson": "Digital Carlson",
+  "pharetra_quam": "Pharetra quam sit amet",
+  "pellentesque_habitant": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed vestibulum orci quam.",
+  "johnny_stephen": "Johnny Stephen",
+  "magna_nisi": "Magna nisi porta ligula",
+  "vivamus_aliquet": "Vivamus aliquet felis eu diam ultricies congue. Morbi porta lorem nec consectetur porta quis dui elit habitant morbi.",
+  "jessie_white": "Jessie White",
+  "vitae_lacinia": "Vitae lacinia augue urna quis",
+  "contact_us": "Contact Us",
+  "message_sent": "Your message has been sent successfully.",
+  "email_valid": "E-mail must be valid and message must be longer than 1 character.",
+  "send_message": "Send Message",
+  "find_us": "Find us",
+  "queen_rania": "Queen Rania St 134, Amman, Jordan",
+  "reservation": "Reservation",
+  "phone_numbers": "+962 7 9785 2640 | +962 7 9568 4673",
+  "email": "kilo.one.store@gmail.com",
+  "whatsapp": "WhatsApp: +962 7 9785 2640",
+  "open_hours": "Open Hours",
+  "monday_closed": "Monday: Closed",
+  "saturday_friday": "Saturday to Friday 7:00 AM - 9:00 PM",
+  "friday": "Friday 01:00 AM - 07:00 PM",
+  "copyright": "Copyright © 2018 Kilo One™",
+  "design": "Design: MH Studios™ / MH Designs™"
+}

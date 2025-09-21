@@ -1,0 +1,72 @@
+{
+  "navbar": {
+    "home": "الرئيسية",
+    "about": "عننا",
+    "chef": "الشيف",
+    "menu": "القائمة",
+    "contact": "اتصل بنا",
+    "shop": "المتجر"
+  },
+  "call_now": "اتصل الآن! +962 7 9785 2640",
+  "reserve_product": "احجز منتج",
+  "slider": {
+    "healthy_nutrition_store": "متجر التغذية الصحية",
+    "mission_health_boost": "مهمتنا تقديم دفعة صحية لا تنسى",
+    "meet_team": "تعرف على فريقنا",
+    "perfect_health_boost": "دفعة صحتك المثالية",
+    "best_healthy_products": "أفضل المنتجات الصحية يمكن أن تكون هنا أيضًا!",
+    "discover_products": "اكتشف منتجاتنا",
+    "new_healthy_estore": "متجر إلكتروني صحي جديد",
+    "enjoy_effects": "استمتع بتأثيرات منتجات تشعرك بالعظمة",
+    "reserve_product": "احجز منتج",
+    "why_best": "لماذا نحن الأفضل؟",
+    "get_to_know": "تعرف على لماذا نحن الأفضل في مجالنا!",
+    "reserve_product": "احجز منتج"
+  },
+  "about": {
+    "read_story": "اقرأ قصتنا",
+    "kilo_one_estore": "كان متجر Kilo One™ الإلكتروني قيد التشغيل منذ 2018!",
+    "kilo_one_established": "تم تأسيس Kilo One™ في السعودية في ذلك الوقت, كان يتكون فقط من 2 كابتن تسليم في مناطق محددة في الرياض. ثم أنشأنا مقرًا رئيسيًا بمساعدة بعض الشركات المحلية, وصولًا إلى شوارع عمّان, تم التوصل إلى اتفاق مع Unicity™ لدعمنا كموزعين مستقلين لـ Unicity™. الآن نحن نحاول التوسع في الأسواق الأردنية, مهتمون بإرضاء العملاء والزبائن ببضائع صحية وقابلة للبرمجة ومنتجات غذائية مقدمة من Unicity™."
+  },
+  "team": {
+    "meet_team": "تعرف على فريقنا",
+    "nice_friendly": "هم لطفاء وودودون",
+    "mrs_andaleeb": "السيدة أندليب سامح جربوع",
+    "unipro_distributor": "موزع Unipro",
+    "muhammad_hussam": "محمد حسام الجرجاوي",
+    "owner_manager": "المالك والمدير"
+  },
+  "store": {
+    "our_store": "متجرنا",
+    "shop_products": "تسوق منتجاتنا",
+    "feel_great": "تشعر بالعظمة",
+    "feel_great_products": "منتجات تشعر بالعظمة",
+    "68_jd81_jd": "68 دينار 81 دينار"
+  },
+  "testimonials": "شهادات",
+  "integer_posuere": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum ullamcorper nulla non.",
+  "digital_carlson": "ديجيتال كارلسون",
+  "pharetra_quam": "Pharetra quam sit amet",
+  "pellentesque_habitant": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed vestibulum orci quam.",
+  "johnny_stephen": "جوني ستيفن",
+  "magna_nisi": "Magna nisi porta ligula",
+  "vivamus_aliquet": "Vivamus aliquet felis eu diam ultricies congue. Morbi porta lorem nec consectetur porta quis dui elit habitant morbi.",
+  "jessie_white": "جيسي وايت",
+  "vitae_lacinia": "Vitae lacinia augue urna quis",
+  "contact_us": "اتصل بنا",
+  "message_sent": "تم إرسال رسالتك بنجاح.",
+  "email_valid": "يجب أن يكون البريد الإلكتروني صالحًا ويجب أن تكون الرسالة أطول من حرف واحد.",
+  "send_message": "إرسال الرسالة",
+  "find_us": "ابحث عننا",
+  "queen_rania": "شارع الملكة رانيا 134, عمّان, الأردن",
+  "reservation": "الحجز",
+  "phone_numbers": "+962 7 9785 2640 | +962 7 9568 4673",
+  "email": "kilo.one.store@gmail.com",
+  "whatsapp": "واتساب: +962 7 9785 2640",
+  "open_hours": "ساعات العمل",
+  "monday_closed": "الاثنين: مغلق",
+  "saturday_friday": "السبت إلى الجمعة 7:00 صباحًا - 9:00 مساءً",
+  "friday": "الجمعة 01:00 صباحًا - 07:00 مساءً",
+  "copyright": "حقوق النشر © 2018 Kilo One™",
+  "design": "التصميم: MH Studios™ / MH Designs™"
+}
