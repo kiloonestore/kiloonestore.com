@@ -595,6 +595,8 @@
      <!-- SCRIPTS -->
      <script src="js/jquery.js"></script>
      <script src="js/bootstrap.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/custom.js"></script>
      <script src="js/jquery.stellar.min.js"></script>
      <script src="js/wow.min.js"></script>
      <script src="js/owl.carousel.min.js"></script>
@@ -612,9 +614,15 @@
         $(document).ready(function() {
             // Initialize WOW.js for animations
             new WOW().init();
+        // Handle form submission with Formspree
+        $('#contact-form').on('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
 
             // Initialize Stellar.js for parallax
             $(window).stellar();
+            const form = $(this);
+            const successMessage = $('#success-message');
+            const errorMessage = $('#error-message');
 
             // Initialize Owl Carousel for sliders and testimonials
             $('.owl-carousel').owlCarousel({
@@ -623,11 +631,20 @@
                 nav: true,
                 items: 1
             });
+            // Hide messages initially
+            successMessage.hide();
+            errorMessage.hide();
 
             // Toggle dropdown visibility for language selector
             function toggleLangDropdown() {
                 const dropdown = document.getElementById('langDropdown');
                 dropdown.classList.toggle('active');
+            // Validate email and message
+            const email = $('#cf-email').val();
+            const message = $('#cf-message').val();
+            if (!email.includes('@') || message.length <= 1) {
+                errorMessage.show();
+                return;
             }
 
             // Handle language selection
@@ -661,6 +678,17 @@
                 const email = $('#cf-email').val();
                 const message = $('#cf-message').val();
                 if (!email.includes('@') || message.length <= 1) {
+            // Send form data via AJAX
+            $.ajax({
+                url: form.attr('action'),
+                method: 'POST',
+                data: form.serialize(),
+                dataType: 'json',
+                success: function(response) {
+                    successMessage.show();
+                    form[0].reset(); // Clear form
+                },
+                error: function() {
                     errorMessage.show();
                     return;
                 }
