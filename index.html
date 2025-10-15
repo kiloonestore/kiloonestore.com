@@ -595,50 +595,26 @@
      <!-- SCRIPTS -->
      <script src="js/jquery.js"></script>
      <script src="js/bootstrap.min.js"></script>
-     <script src="js/smoothscroll.js"></script>
-     <script src="js/custom.js"></script>
      <script src="js/jquery.stellar.min.js"></script>
      <script src="js/wow.min.js"></script>
      <script src="js/owl.carousel.min.js"></script>
      <script src="js/jquery.magnific-popup.min.js"></script>
      <script src="js/smoothscroll.js"></script>
-     <script src="js/custom.js"></script>
-	 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
      <script src="language-switcher.js"></script>
-	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+     <script src="js/custom.js"></script>
      <script>
-        $(document).ready(function() {
-            // Initialize WOW.js for animations
-            new WOW().init();
         // Handle form submission with Formspree
         $('#contact-form').on('submit', function(event) {
             event.preventDefault(); // Prevent default form submission
 
-            // Initialize Stellar.js for parallax
-            $(window).stellar();
             const form = $(this);
             const successMessage = $('#success-message');
             const errorMessage = $('#error-message');
 
-            // Initialize Owl Carousel for sliders and testimonials
-            $('.owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                nav: true,
-                items: 1
-            });
             // Hide messages initially
             successMessage.hide();
             errorMessage.hide();
 
-            // Toggle dropdown visibility for language selector
-            function toggleLangDropdown() {
-                const dropdown = document.getElementById('langDropdown');
-                dropdown.classList.toggle('active');
             // Validate email and message
             const email = $('#cf-email').val();
             const message = $('#cf-message').val();
@@ -647,37 +623,6 @@
                 return;
             }
 
-            // Handle language selection
-            function selectLanguage(lang) {
-                console.log(`Selected language: ${lang}`);
-                // Add your language switch logic here (e.g., update page content, store preference)
-                toggleLangDropdown(); // Close dropdown after selection
-            }
-
-            // Close dropdown when clicking outside
-            document.addEventListener('click', function(event) {
-                const langSelector = document.querySelector('.lang-selector');
-                if (!langSelector.contains(event.target)) {
-                    document.getElementById('langDropdown').classList.remove('active');
-                }
-            });
-
-            // Handle form submission with Formspree
-            $('#contact-form').on('submit', function(event) {
-                event.preventDefault(); // Prevent default form submission
-
-                const form = $(this);
-                const successMessage = $('#success-message');
-                const errorMessage = $('#error-message');
-
-                // Hide messages initially
-                successMessage.hide();
-                errorMessage.hide();
-
-                // Validate email and message
-                const email = $('#cf-email').val();
-                const message = $('#cf-message').val();
-                if (!email.includes('@') || message.length <= 1) {
             // Send form data via AJAX
             $.ajax({
                 url: form.attr('action'),
@@ -690,23 +635,7 @@
                 },
                 error: function() {
                     errorMessage.show();
-                    return;
                 }
-
-                // Send form data via AJAX
-                $.ajax({
-                    url: form.attr('action'),
-                    method: 'POST',
-                    data: form.serialize(),
-                    dataType: 'json',
-                    success: function(response) {
-                        successMessage.show();
-                        form[0].reset(); // Clear form
-                    },
-                    error: function() {
-                        errorMessage.show();
-                    }
-                });
             });
         });
      </script>
@@ -714,8 +643,3 @@
 </body>
 
 </html>
-
-
-
-
-
